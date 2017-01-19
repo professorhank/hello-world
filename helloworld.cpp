@@ -4,8 +4,13 @@ using namespace std;
 
 int main()
 {
-    cout << "Enter your first name : ";
-    cin >> name;
+    string first, last;
     
-    cout << "Hi, " << name << endl;
+    cout << "Enter your first name : ";
+    cin >> first;
+    
+    cout << "Enter your last name : ";
+    cin >> last;
+    
+    cout << "Hello, " << first << " " << last << endl;
 }
